@@ -19,8 +19,8 @@ docker-compose up -d
 # API Docs: http://localhost:8000/docs
 ```
 
-### Вариант 1: Docker Compose (рекомендуется)
-#Backend
+### Вариант 2: Ручная установка
+```#Backend
 cd backend
 pip install -r requirements.txt
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
@@ -29,6 +29,7 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 cd frontend
 pip install -r requirements.txt
 streamlit run streamlit_app.py
+```
 
 ## 📁 Структура проекта
 ```text
