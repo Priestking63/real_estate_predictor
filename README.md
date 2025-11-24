@@ -28,7 +28,7 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 # Frontend (в другом терминале)
 cd frontend
 pip install -r requirements.txt
-streamlit run streamlit_app.py
+streamlit run front.py
 ```
 
 ## 📁 Структура проекта
