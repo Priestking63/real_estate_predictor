@@ -34,8 +34,6 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
-# Models (если большие, лучше не коммитить)
 *.pkl
 *.joblib
 *.h5
