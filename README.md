@@ -42,7 +42,7 @@ real-estate-predictor/
 │   ├── Dockerfile          # Образ бэкенда
 │   └── *.pkl              # ML модели и энкодеры
 ├── frontend/               # Streamlit интерфейс
-│   ├── streamlit_app.py    # Веб-интерфейс
+│   ├── front.py    # Веб-интерфейс
 │   ├── requirements.txt    # Зависимости фронтенда
 │   └── Dockerfile          # Образ фронтенда
 ├── docker-compose.yml      # Оркестрация контейнеров
